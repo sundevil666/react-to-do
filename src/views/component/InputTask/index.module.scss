@@ -1,0 +1,23 @@
+.inputTask {
+  display: grid;
+  grid-template-columns: 1fr 50px 65px;
+  margin-bottom: 50px;
+  background-color: #dbe2ef;
+  border-radius: 5px;
+  gap: 10px;
+}
+.inputTaskLabel {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 12px 15px;
+  text-align: left;
+  gap: 10px;
+}
+.inputTaskEdit, .inputTaskRemove {
+  border: none;
+  cursor: pointer;
+}
+.inputTaskCheckbox {
+  cursor: pointer;
+}

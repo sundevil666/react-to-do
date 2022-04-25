@@ -1,0 +1,27 @@
+.inputPlus {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 70px;
+  margin-bottom: 20px;
+}
+.inputPlusValue {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px 0 0 5px;
+  padding: 9px 10px;
+  background-color: #dbe2ef;
+  &::placeholder {
+    color: #7b7b7b;
+  }
+}
+.inputPlusButton {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  background-color: #3f72af;
+  color: #fff;
+  opacity: 1;
+  transition: opacity .5s;
+  &:hover {
+    opacity: .7;
+  }
+}
